@@ -11,7 +11,7 @@
      spec:
        containers:
          - name: master
-           image: welcome-service
+           image: nginx
            ports:
              - containerPort: 80
          - name: welcome-service
