@@ -15,6 +15,6 @@
            ports:
              - containerPort: 80
          - name: welcome-service
-           image: nickchase/rss-php-nginx:v1
+           image: simonsimage
            ports:
              - containerPort: 88
