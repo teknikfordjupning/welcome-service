@@ -2,6 +2,7 @@
  kind: Deployment
  metadata:
    name: welcome-service
+   namespace: welcome-to-the-service
  spec:
    replicas: 2
    template:
