@@ -2,7 +2,7 @@ apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
   name: welcome-service
-  namespace: welcome-service
+  namespace: default
 #  annotations:
 #    ingress.kubernetes.io/add-base-url: "true"
 #    ingress.kubernetes.io/rewrite-target: /
