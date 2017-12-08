@@ -2,7 +2,6 @@ apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
   name: welcome-service
-  namespace: default
 #  annotations:
 #    ingress.kubernetes.io/add-base-url: "true"
 #    ingress.kubernetes.io/rewrite-target: /
@@ -12,4 +11,4 @@ spec:
   - secretName: tls
   backend:
     serviceName: welcome-ui
-    servicePort: 8080
+    servicePort: 8082
