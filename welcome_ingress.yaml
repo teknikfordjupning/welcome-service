@@ -10,5 +10,5 @@ spec:
   tls:
   - secretName: tls
   backend:
-    serviceName: welcome-ui
+    serviceName: welcome-service
     servicePort: 80

@@ -1,7 +1,7 @@
   kind: Service
   apiVersion: v1
   metadata:
-    name: welcome-ui
+    name: welcome-service
   spec:
     type: NodePort
     selector:
