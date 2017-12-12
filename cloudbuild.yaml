@@ -1,0 +1,6 @@
+steps:
+- name: 'gcr.io/cloud-builders/java/mvn'
+  args: ['install']
+- name: gcr.io/cloud-builders/docker
+  args: ['build', '-t', 'eu.gcr.io/$PROJECT_ID/welcome-service:$SHORT_SHA', '.']
+images: ['eu.gcr.io/$PROJECT_ID/welcome-service:$SHORT_SHA']
