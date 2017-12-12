@@ -10,11 +10,7 @@
          app: master
      spec:
        containers:
-         - name: master
-           image: nginx
-           ports:
-             - containerPort: 82
-         - name: welcome-service
-           image: gcr.io/intrepid-kiln-187309/welcome-service:v1
-           ports:
-             - containerPort: 88
+       - name: welcome-service
+         image: eu.gcr.io/intrepid-kiln-187309/welcome-service:e47f9cd
+         ports:
+         - containerPort: 8082

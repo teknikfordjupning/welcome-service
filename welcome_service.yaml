@@ -3,11 +3,11 @@
   metadata:
     name: welcome-ui
   spec:
-    type: LoadBalancer
+    type: NodePort
     selector:
       app: master
     ports:
       - protocol: TCP
-        port: 8082
+        port: 80
         targetPort: 8082
         name: ui
