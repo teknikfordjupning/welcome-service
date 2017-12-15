@@ -3,7 +3,7 @@
   metadata:
     name: welcome-service
   spec:
-    type: NodePort
+    type: LoadBalancer
     selector:
       app: master
     ports:
