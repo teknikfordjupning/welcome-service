@@ -11,6 +11,6 @@
      spec:
        containers:
        - name: welcome-service
-         image: eu.gcr.io/intrepid-kiln-187309/welcome-service:e47f9cd
+         image: eu.gcr.io/intrepid-kiln-187309/welcome-service:d960ef6
          ports:
          - containerPort: 8082

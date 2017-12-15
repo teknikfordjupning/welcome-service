@@ -1,0 +1,10 @@
+body {
+    background-size: auto;
+    background: url("kub.png") no-repeat center;
+}
+
+h1 {
+    color: royalblue;
+    text-align: center;
+    font-size: 72px;
+}
